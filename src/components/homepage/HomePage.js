@@ -9,7 +9,7 @@ const HomePage = () => {
     const [data, setData] = useState(null);
 
     useEffect(() => {
-        fetch('/data/homepage.json')
+        fetch('${process.env.PUBLIC_URL}/data/homepage.json')
             .then(response => response.json())
             .then(data => setData(data));
     }, []);
