@@ -1,0 +1,116 @@
+.outer-container {
+    background: #1a1a1a;
+    background-image: linear-gradient(45deg, #2b2b2b 25%, transparent 25%, transparent), 
+                      linear-gradient(-45deg, #2b2b2b 25%, transparent 25%, transparent), 
+                      linear-gradient(45deg, transparent 75%, #2b2b2b 75%), 
+                      linear-gradient(-45deg, transparent 75%, #2b2b2b 75%);
+    background-size: 20px 20px;
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+.menu-container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    background: #efffef;
+    background-image: linear-gradient(45deg, #ddffdd 25%, transparent 25%, transparent), 
+                      linear-gradient(-45deg, #ddffdd 25%, transparent 25%, transparent), 
+                      linear-gradient(45deg, transparent 75%, #ddffdd 75%), 
+                      linear-gradient(-45deg, transparent 75%, #ddffdd 75%);
+    background-size: 20px 20px;
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+  }
+  
+  h1 {
+    font-family: "Your Font Name", sans-serif;
+    font-size: 32px;
+    color: #000000; /* Change to desired color for the menu title */
+    margin-bottom: 20px;
+  }
+
+  .menu-category {
+    padding: 20px;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-position: center;
+    color: #000000; /* Change to desired color for menu category text */
+  }
+  
+  .menu-category h2 {
+    font-family: "Your Font Name", sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .items-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .menu-item {
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .menu-item-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .item-info h3 {
+    font-family: "Your Font Name", sans-serif;
+    font-size: 20px;
+    color: #000000; /* Change to desired color for item info text */
+  }
+  
+  .item-info p {
+    color: #000000; /* Change to desired color for item info text */
+  }
+
+/* CSS Styles */
+.quantity-control button {
+    background-color: #66deb0; /* Change to desired button background color */
+    color: #ffffff; /* Change to desired button text color */
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .quantity-control button:hover {
+    background-color: #66deb0; /* Change to desired hover background color */
+  }
+  
+  .quantity-control input {
+    width: 30px;
+    text-align: center;
+    border: 1px solid #66deb0; /* Change to desired input border color */
+    padding: 2px;
+    margin: 0 5px;
+  }
+  
+  .quantity-control input:focus {
+    outline: none;
+  }
+  
+  /* CSS Styles */
+.add-to-order-button {
+    background-color: #28a745; /* Change to desired button background color */
+    color: #ffffff; /* Change to desired button text color */
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .add-to-order-button:hover {
+    background-color: #218838; /* Change to desired hover background color */
+  }
+  
+  

@@ -1,0 +1,11 @@
+.custom-carousel-container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border: 1px solid white;
+    padding: 10px; /* 可根据需要调整内边距大小 */
+}
+
+.custom-carousel-container .carousel-root {
+    width: 80%;
+}
