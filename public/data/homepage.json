@@ -4,11 +4,11 @@
         "content": "Our values are what we feed our kids – honesty, integrity, belief, trust, and being personal, all with purpose."
     },
     "carouselImages": [
-        "../../tem/imgs/1.jpeg",
-        "../../tem/imgs/2.jpeg",
-        "../../tem/imgs/3.webp"
+        "tem/imgs/1.jpeg",
+        "tem/imgs/2.jpeg",
+        "tem/imgs/3.webp"
     ],
-    "videoBackground": "../../tem/vids/background.mp4",
+    "videoBackground": "tem/vids/background.mp4",
     "values": [
         {
             "title": "QUALITY",

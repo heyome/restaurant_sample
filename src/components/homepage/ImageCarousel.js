@@ -24,7 +24,7 @@ const ImageCarousel = ({ images }) => {
             >
                 {images.map((image, index) => (
                     <div key={index}>
-                        <img src={image} alt={`Slide ${index + 1}`} />
+                        <img src={`${process.env.PUBLIC_URL}/${image}`} alt={`Slide ${index + 1}`} />
                     </div>
                 ))}
             </Carousel>

@@ -30,7 +30,7 @@ const BackgroundVideo = ({ src, data}) => {
     return (
         <div>
             <div style={videoStyle}>
-                <ReactPlayer url={src} playing loop muted width="100%" height="100%" />
+                <ReactPlayer url={`${process.env.PUBLIC_URL}/${src}`} playing loop muted width="100%" height="100%" />
             </div>
             <div style={{ height: '100vh', position: 'relative' }}>
                 {showWelcome && (

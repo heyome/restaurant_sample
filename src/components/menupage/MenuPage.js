@@ -56,7 +56,7 @@ function MenuPage({ addToOrder }) {
                 const quantity = orderItem ? orderItem.quantity : itemQuantities[item.name] || 0;
                 return (
                   <div key={j} className="menu-item">
-                    {item.picture && <img src={item.picture} alt={item.name} className="menu-item-image" />}
+                    {item.picture && <img src={`${process.env.PUBLIC_URL}/${item.picture}`} alt={item.name} className="menu-item-image" />}
                     <div className="item-info">
                       <h3>{item.name} | {item.price}</h3>
                       <p>{item.description}</p>
