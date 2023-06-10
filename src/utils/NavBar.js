@@ -5,7 +5,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 function NavBar() {
   return (
     <Navbar bg="dark" variant="dark">
-      <Navbar.Brand href="/">Our Restaurant</Navbar.Brand>
+      <Navbar.Brand>Our Restaurant</Navbar.Brand>
       <Nav className="ml-auto">
         <Nav.Link as={Link} to="/">Home</Nav.Link>
         <Nav.Link as={Link} to="/menu">Menu</Nav.Link>
