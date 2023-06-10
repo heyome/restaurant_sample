@@ -7,7 +7,7 @@ function MenuPage({ addToOrder }) {
   const { orders } = useContext(OrderContext);
 
   useEffect(() => {
-    fetch('${process.env.PUBLIC_URL}/data/menu.json')
+    fetch(`${process.env.PUBLIC_URL}/data/menu.json`)
       .then(response => response.json())
       .then(data => setMenu(data.menu));
   }, []);
