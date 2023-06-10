@@ -1,0 +1,210 @@
+{
+    "menu": [
+      {
+        "category": "Appetizers",
+        "items": [
+          {
+            "name": "Spinach Artichoke Dip",
+            "description": "Creamy spinach and artichoke dip served with tortilla chips.",
+            "price": "$8.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          },
+          {
+            "name": "Chicken Wings",
+            "description": "Crispy chicken wings with your choice of sauce: BBQ, Buffalo, or Teriyaki.",
+            "price": "$9.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          },
+          {
+            "name": "Mozzarella Sticks",
+            "description": "Golden-fried mozzarella sticks served with marinara sauce.",
+            "price": "$7.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          },
+          {
+            "name": "Loaded Nachos",
+            "description": "Tortilla chips topped with melted cheese, black beans, jalapenos, tomatoes, and sour cream.",
+            "price": "$10.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          },
+          {
+            "name": "Fried Calamari",
+            "description": "Crispy fried calamari rings served with lemon aioli dipping sauce.",
+            "price": "$11.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          },
+          {
+            "name": "Caprese Skewers",
+            "description": "Fresh mozzarella, cherry tomatoes, and basil drizzled with balsamic glaze.",
+            "price": "$8.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          }
+        ]
+      },
+      {
+        "category": "Salads",
+        "items": [
+          {
+            "name": "Caesar Salad",
+            "description": "Crisp romaine lettuce, Parmesan cheese, croutons, and Caesar dressing.",
+            "price": "$9.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          },
+          {
+            "name": "Greek Salad",
+            "description": "Mixed greens, cucumbers, tomatoes, Kalamata olives, red onions, feta cheese, and Greek dressing.",
+            "price": "$10.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          },
+          {
+            "name": "Cobb Salad",
+            "description": "Mixed greens, grilled chicken, bacon, avocado, hard-boiled eggs, tomatoes, and blue cheese dressing.",
+            "price": "$11.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          },
+          {
+            "name": "Asian Sesame Salad",
+            "description": "Mixed greens, grilled chicken, mandarin oranges, toasted almonds, crispy noodles, and sesame ginger dressing.",
+            "price": "$11.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          },
+          {
+            "name": "Caprese Salad",
+            "description": "Fresh mozzarella, tomatoes, basil, and balsamic glaze.",
+            "price": "$9.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          },
+          {
+            "name": "Spinach Berry Salad",
+            "description": "Baby spinach, strawberries, blueberries, goat cheese, candied pecans, and balsamic vinaigrette.",
+            "price": "$10.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          }
+        ]
+      },
+      {
+        "category": "Pizzas",
+        "items": [
+          {
+            "name": "Margherita Pizza",
+            "description": "Fresh mozzarella, tomatoes, basil, and olive oil.",
+            "price": "$12.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          },
+          {
+            "name": "Pepperoni Pizza",
+            "description": "Classic pepperoni pizza with mozzarella cheese and tomato sauce.",
+            "price": "$13.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          },
+          {
+            "name": "Vegetarian Pizza",
+            "description": "Assorted vegetables, mozzarella cheese, and tomato sauce.",
+            "price": "$14.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          },
+          {
+            "name": "BBQ Chicken Pizza",
+            "description": "Grilled chicken, red onions, BBQ sauce, mozzarella cheese, and cilantro.",
+            "price": "$15.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          },
+          {
+            "name": "Meat Lovers Pizza",
+            "description": "Pepperoni, sausage, bacon, ham, mozzarella cheese, and tomato sauce.",
+            "price": "$16.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          },
+          {
+            "name": "Supreme Pizza",
+            "description": "Pepperoni, sausage, mushrooms, bell peppers, onions, black olives, mozzarella cheese, and tomato sauce.",
+            "price": "$17.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          }
+        ]
+      },
+      {
+        "category": "Pasta",
+        "items": [
+          {
+            "name": "Spaghetti Bolognese",
+            "description": "Spaghetti pasta with homemade meat sauce.",
+            "price": "$12.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          },
+          {
+            "name": "Fettuccine Alfredo",
+            "description": "Fettuccine pasta tossed in creamy Alfredo sauce.",
+            "price": "$13.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          },
+          {
+            "name": "Chicken Parmesan",
+            "description": "Breaded chicken breast topped with marinara sauce and melted mozzarella cheese, served with spaghetti.",
+            "price": "$15.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          },
+          {
+            "name": "Shrimp Scampi",
+            "description": "Sautéed shrimp in garlic butter sauce served over linguine pasta.",
+            "price": "$17.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          },
+          {
+            "name": "Penne Arrabiata",
+            "description": "Penne pasta tossed in spicy tomato sauce with garlic and red pepper flakes.",
+            "price": "$13.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          },
+          {
+            "name": "Eggplant Parmesan",
+            "description": "Breaded eggplant slices topped with marinara sauce and melted mozzarella cheese, served with spaghetti.",
+            "price": "$14.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          }
+        ]
+      },
+      {
+        "category": "Desserts",
+        "items": [
+          {
+            "name": "New York Cheesecake",
+            "description": "Classic New York-style cheesecake topped with strawberry sauce.",
+            "price": "$6.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          },
+          {
+            "name": "Chocolate Lava Cake",
+            "description": "Warm chocolate cake with a gooey chocolate center, served with vanilla ice cream.",
+            "price": "$7.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          },
+          {
+            "name": "Tiramisu",
+            "description": "Layered coffee-soaked ladyfingers and mascarpone cream, dusted with cocoa powder.",
+            "price": "$7.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          },
+          {
+            "name": "Apple Pie",
+            "description": "Classic apple pie with a flaky crust, served with vanilla ice cream.",
+            "price": "$6.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          },
+          {
+            "name": "Crème Brûlée",
+            "description": "Rich custard topped with caramelized sugar.",
+            "price": "$7.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          },
+          {
+            "name": "Berry Tart",
+            "description": "Buttery tart crust filled with mixed berries and pastry cream.",
+            "price": "$6.99",
+            "picture": "../../tem/imgs/1.jpeg"
+          }
+        ]
+      }
+    ]
+  }
+  

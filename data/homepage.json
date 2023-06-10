@@ -1,0 +1,55 @@
+{
+    "welcome": {
+        "title": "Welcome To Our Restaurant",
+        "content": "Our values are what we feed our kids – honesty, integrity, belief, trust, and being personal, all with purpose."
+    },
+    "carouselImages": [
+        "../../tem/imgs/1.jpeg",
+        "../../tem/imgs/2.jpeg",
+        "../../tem/imgs/3.webp"
+    ],
+    "videoBackground": "../../tem/vids/background.mp4",
+    "values": [
+        {
+            "title": "QUALITY",
+            "content": "Truly farm-to-table, Responsibly sourced."
+        },
+        {
+            "title": "SOUL",
+            "content": "Purposeful hospitality, Driven by connections."
+        },
+        {
+            "title": "AUTHENTICITY",
+            "content": "Honest & transparent, Genuinely guest-focused."
+        },
+        {
+            "title": "CONSISTENCY",
+            "content": "Amazing cuisine & spaces, Memorable experiences."
+        },
+        {
+            "title": "PASSION",
+            "content": "A love for life, food & people, A place of pride for all."
+        },
+        {
+            "title": "EFFICIENCY",
+            "content": "Growth with purpose, Continuous innovation."
+        }
+    ],
+    "socialMedia": {
+        "content": "Stay informed about our latest news and specials. Sign up for our newsletter.",
+        "links": [
+            {
+                "platform": "Facebook",
+                "url": "http://facebook.com/your-restaurant"
+            },
+            {
+                "platform": "Twitter",
+                "url": "http://twitter.com/your-restaurant"
+            },
+            {
+                "platform": "Instagram",
+                "url": "http://instagram.com/your-restaurant"
+            }
+        ]
+    }
+}
