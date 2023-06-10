@@ -29,7 +29,7 @@ function App() {
 
   return (
     <OrderContext.Provider value={{ orders, setOrders }}>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <NavBar />
         <Routes>
