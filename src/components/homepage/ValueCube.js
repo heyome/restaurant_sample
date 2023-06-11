@@ -1,4 +1,5 @@
 import React from 'react';
+import './ValueCube.css'; 
 
 const ValueCube = ({ title, content }) => {
   const cubeStyle = {
@@ -17,7 +18,7 @@ const ValueCube = ({ title, content }) => {
   };
 
   return (
-    <div style={cubeStyle}>
+    <div className="value-cube" style={cubeStyle}>
       <div style={{ marginBottom: '10px' }}>
         <strong>{title}</strong>
       </div>

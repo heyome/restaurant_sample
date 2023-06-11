@@ -7,10 +7,10 @@ const Values = ({ values }) => {
   );
 
   return (
-    <div style={{ backgroundColor: 'black', padding: '20px' }}>
+    <div className="values-container" style={{ backgroundColor: 'black', padding: '20px' }}>
       <h1 style={{ color: 'white', textAlign: 'center' }}>Our Values</h1>
       {chunks.map((chunk, index) => (
-        <div key={index} style={{ display: 'flex', justifyContent: 'center' }}>
+        <div key={index} className="value-row" style={{ display: 'flex', justifyContent: 'center' }}>
           {chunk.map((value, idx) => (
             <ValueCube key={idx} title={value.title} content={value.content} />
           ))}

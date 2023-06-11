@@ -113,4 +113,25 @@
     background-color: #218838; /* Change to desired hover background color */
   }
   
+  @media (max-width: 768px) {
+    .menu-container {
+      width: 90%; /* Increase width to use more space on smaller screens */
+    }
   
+    .menu-item {
+      width: 100%; /* Make menu items take full width on smaller screens */
+      padding: 5px; /* Reduce padding on smaller screens */
+    }
+    
+    h1 {
+      font-size: 28px; /* Reduce font size on smaller screens */
+    }
+    
+    .menu-category h2 {
+      font-size: 20px; /* Reduce font size on smaller screens */
+    }
+    
+    .item-info h3 {
+      font-size: 18px; /* Reduce font size on smaller screens */
+    }
+  }

@@ -8,9 +8,13 @@ import ReservationPage from './components/reservationpage/ReservationPage';
 import NavBar from './utils/NavBar';
 import Footer from './utils/Footer';
 import { OrderContext } from './utils/OrderContext';
+import UserContext from './utils/UserContext';
+import LoginPage from './components/loginpage/LoginPage';
+import SignupPage from './components/loginpage/SignupPage';
 
 function App() {
   const [orders, setOrders] = useState([]);
+  const [user, setUser] = useState(null);
 
   const addToOrder = (item) => {
     setOrders((prevOrder) => {
@@ -28,6 +32,7 @@ function App() {
   };
 
   return (
+    <UserContext.Provider value={{ user, setUser }}>
     <OrderContext.Provider value={{ orders, setOrders }}>
     <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
@@ -37,10 +42,13 @@ function App() {
           <Route path="/menu" element={<MenuPage addToOrder={addToOrder}/>} />
           <Route path="/order" element={<OrderPage />} />
           <Route path="/reservation" element={<ReservationPage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/signup" element={<SignupPage />} />
         </Routes>
       </div>
     </Router>
     </OrderContext.Provider>
+    </UserContext.Provider>
   );
 }
 
