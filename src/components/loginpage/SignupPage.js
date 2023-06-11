@@ -1,6 +1,7 @@
 import React, { useState, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import UserContext from '../../utils/UserContext';
+import './SignupPage.css'; // Import the CSS file
 
 function SignupPage() {
   const [email, setEmail] = useState('');
@@ -39,21 +40,25 @@ function SignupPage() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label>
-        Email:
-        <input type="email" value={email} onChange={handleEmailChange} />
-      </label>
-      <label>
-        Password:
-        <input type="password" value={password} onChange={handlePasswordChange} />
-      </label>
-      <label>
-        Confirm Password:
-        <input type="password" value={confirmPassword} onChange={handleConfirmPasswordChange} />
-      </label>
-      <input type="submit" value="Signup" />
-    </form>
+    <div className="signup-page">
+      <form onSubmit={handleSubmit} className="signup-form">
+        <div className="input-group">
+          <label>Email:</label>
+          <input type="email" value={email} onChange={handleEmailChange} />
+        </div>
+        <div className="input-group">
+          <label>Password:</label>
+          <input type="password" value={password} onChange={handlePasswordChange} />
+        </div>
+        <div className="input-group">
+          <label>Confirm Password:</label>
+          <input type="password" value={confirmPassword} onChange={handleConfirmPasswordChange} />
+        </div>
+        <div className="button-group">
+          <input type="submit" value="Signup" className="signup-submit" />
+        </div>
+      </form>
+    </div>
   );
 }
 

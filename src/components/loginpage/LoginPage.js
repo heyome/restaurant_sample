@@ -19,25 +19,29 @@ function LoginPage() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+
     setUser({ email: email });
+
     navigate("/");
   };
 
   return (
     <div className="login-page">
       <form onSubmit={handleSubmit} className="login-form">
-        <label>
-          Email:
+        <div className="input-group">
+          <label>Email:</label>
           <input type="email" value={email} onChange={handleEmailChange} />
-        </label>
-        <label>
-          Password:
+        </div>
+        <div className="input-group">
+          <label>Password:</label>
           <input type="password" value={password} onChange={handlePasswordChange} />
-        </label>
-        <input type="submit" value="Login" className="login-submit"/>
-        <Link to="/signup">
-          <button className="signup-button">Signup</button>
-        </Link>
+        </div>
+        <div className="button-group">
+          <input type="submit" value="Login" className="login-submit" />
+          <Link to="/signup">
+            <button className="signup-button">Signup</button>
+          </Link>
+        </div>
       </form>
     </div>
   );
