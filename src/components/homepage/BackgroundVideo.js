@@ -25,7 +25,11 @@ const BackgroundVideo = ({ src, data}) => {
         width: '100%',
         height: '100%',
         zIndex: -1,
-    };
+        '@media (max-width: 600px)': {
+          height: '50%',
+        },
+      };
+      
 
     return (
         <div>

@@ -6,6 +6,12 @@
     padding: 10px; /* 可根据需要调整内边距大小 */
 }
 
-.custom-carousel-container .carousel-root {
-    width: 80%;
+.custom-carousel-container .carousel {
+    width: 50%;
+}
+
+@media (max-width: 600px) {
+    .custom-carousel-container .carousel {
+        width: 100%;
+    }
 }
