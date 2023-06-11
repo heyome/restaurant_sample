@@ -113,7 +113,7 @@
     background-color: #218838; /* Change to desired hover background color */
   }
   
-  @media (maxWidth: 768px) {
+  @media (max-width: 600px) {
     .menu-container {
       width: 90%; /* Increase width to use more space on smaller screens */
     }

@@ -18,20 +18,20 @@ const Welcome = ({ welcome }) => {
           bottom: 0,
           background: 'rgba(0, 0, 0, 0.5)',
           backdropFilter: 'blur(5px)', // Optional: Adds a blur effect to the background
-          '@media (maxWidth: 600px)': {
+          '@media (max-width: 600px)': {
             fontSize: '14px',
           },
         },
         title: {
           fontSize: '3em',
           fontWeight: 'bold',
-          '@media (maxWidth: 600px)': {
+          '@media (max-width: 600px)': {
             fontSize: '2em',
           },
         },
         subtitle: {
           fontSize: '1.5em',
-          '@media (maxWidth: 600px)': {
+          '@media (max-width: 600px)': {
             fontSize: '1em',
           },
         },

@@ -35,7 +35,7 @@
   margin-right: 0;
 }
 
-@media (maxWidth: 600px) {
+@media (max-width: 600px) {
   .social-media-container h1 {
       font-size: 20px;
   }
