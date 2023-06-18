@@ -24,20 +24,40 @@ function SignupPage() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-
     // Check if passwords match
+    
     if (password !== confirmPassword) {
       alert("Passwords do not match!");
       return;
     }
-
-    // For the sake of the example, we'll just pretend we successfully signed up
-    // In a real-world scenario, you would send a request to your backend here to register the user
-    setUser({ email: email });
-
-    // Redirect user to the home page after successful signup
-    navigate("/");
+  
+    fetch('http://localhost:3001/api/users/register', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        username: email,
+        password: password,
+      }),
+    })
+      .then(response => response.text())
+      .then(data => {
+        if (data.message) {
+          // Signup failed, display error message to user
+          alert(data.message);
+        } else {
+          // Signup succeeded, set user and navigate to home page
+          setUser({ name: email });
+          navigate("/");
+        }
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+      });
+      
   };
+  
 
   return (
     <div className="signup-page">

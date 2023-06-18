@@ -19,11 +19,33 @@ function LoginPage() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-
-    setUser({ email: email });
-
-    navigate("/");
+  
+    fetch('http://localhost:3001/api/users/login', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        username: email,
+        password: password,
+      }),
+    })
+      .then(response => response.json())
+      .then(data => {
+        if (data.message) {
+          // Login failed, display error message to user
+          alert(data.message);
+        } else {
+          // Login succeeded, set user and navigate to home page
+          setUser({ name: email });
+          navigate("/");
+        }
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+      });
   };
+  
 
   return (
     <div className="login-page">

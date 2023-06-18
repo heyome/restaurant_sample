@@ -17,7 +17,7 @@ function NavBar() {
           <Nav.Link as={Link} to="/order">Order</Nav.Link>
           <Nav.Link as={Link} to="/reservation">Reservation</Nav.Link>
           {user ? (
-            <Nav.Link disabled>Hello, {user.name}!</Nav.Link>
+            <Nav.Link disabled>{user.name}</Nav.Link>
           ) : (
             <Nav.Link as={Link} to="/login">Login</Nav.Link>
           )}
